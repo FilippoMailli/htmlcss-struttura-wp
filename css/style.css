@@ -4,63 +4,31 @@
     box-sizing: border-box;
 }
 
-.sfondo {
-    width: 100vw;
-    height: 100vh;
-    background-color: #ffe6cc;
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
-.intestazione {
-    height: 30vh;
-    width: 90vw;
-    background-image: url('https://66.media.tumblr.com/56859f5691d0b6e0ab8f1de9cc983c28/tumblr_o8lxo7WqNS1ukofkbo2_r6_1280.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border: 5px solid white;
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%);
+.container {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+header {
+    height: 200px;
+    background-color: brown;
+    margin: 10px 0;
+    border: 3px solid white;
+}
+
+.row {
+    height: 500px;
+    background-color: green;
+}
+
+footer {
+    height: 100px;
     margin-top: 10px;
-}
-
-.barra {
-    height: 50px;
-    width: 100%;
-    background-color: #4d2600;
-    position: absolute;
-    bottom: 0;
-    border-top: 5px solid white;
-}
-
-.colonna {
-    position: absolute;
-    bottom: 0;
-    left: 5%;
-    float: left;
-    margin: 10px;
-    border: 3px solid black;
-}
-
-.uno {
-    height: 60vh;
-    width: 25%;
-    margin-left: 10px;
-    background-color: white;
-}
-
-.due {
-    left: 33%;
-    height: 60vh;
-    width: 30%;
-    margin-left: 10px;
-    background-color: white;
-}
-
-.tre {
-    left: 66%;
-    height: 60vh;
-    width: 25%;
-    margin-left: 10px;
-    background-color: white;
+    background-color: antiquewhite;
 }
