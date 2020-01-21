@@ -10,6 +10,10 @@
     clear: both;
 }
 
+body {
+    background-color: lightgrey;
+}
+
 .container {
     width: 60vw;
     margin: 0 auto;
@@ -29,6 +33,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: blue;
+    border: 3px solid white;
 }
 
 h1 {
@@ -37,15 +42,47 @@ h1 {
     color: white;
 }
 
+.titolo2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
 .barra {
+    position: relative;
     height: 50px;
     background-color: black;
     margin-bottom: 10px;
 }
 
 .row {
+    position: relative;
     height: 500px;
-    background-color: green;
+}
+
+.contbarra {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h4 {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.box {
+    float: left;
+    margin-right: 15px;
 }
 
 aside {
@@ -57,10 +94,11 @@ aside {
 }
 
 main {
-    width: 50%;
+    width: 46%;
     height: 100%;
     float: left;
     padding: 0 10px;
+    margin: 0 2%;
     background-color: grey;
 }
 
